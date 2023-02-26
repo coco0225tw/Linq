@@ -1,0 +1,15 @@
+D:\mine\Linq\Exercise13\Exercise13\bin\Debug\net6.0\Exercise13.exe
+D:\mine\Linq\Exercise13\Exercise13\bin\Debug\net6.0\Exercise13.deps.json
+D:\mine\Linq\Exercise13\Exercise13\bin\Debug\net6.0\Exercise13.runtimeconfig.json
+D:\mine\Linq\Exercise13\Exercise13\bin\Debug\net6.0\Exercise13.dll
+D:\mine\Linq\Exercise13\Exercise13\bin\Debug\net6.0\Exercise13.pdb
+D:\mine\Linq\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.csproj.AssemblyReference.cache
+D:\mine\Linq\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.GeneratedMSBuildEditorConfig.editorconfig
+D:\mine\Linq\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.AssemblyInfoInputs.cache
+D:\mine\Linq\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.AssemblyInfo.cs
+D:\mine\Linq\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.csproj.CoreCompileInputs.cache
+D:\mine\Linq\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.dll
+D:\mine\Linq\Exercise13\Exercise13\obj\Debug\net6.0\refint\Exercise13.dll
+D:\mine\Linq\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.pdb
+D:\mine\Linq\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.genruntimeconfig.cache
+D:\mine\Linq\Exercise13\Exercise13\obj\Debug\net6.0\ref\Exercise13.dll
