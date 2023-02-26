@@ -9,10 +9,10 @@ void Exercise1()
             from num in arr
             where num % 2 == 0
             select num;
-        Console.Write("\nThe numbers which produce the remainder 0 after divided by 2 are : \n");
+        Console.WriteLine("The numbers which produce the remainder 0 after divided by 2 are : ");
         foreach (var num in evenNum)
         {
-            Console.Write(num+"\n");
+            Console.WriteLine(num);
         }
     }
 

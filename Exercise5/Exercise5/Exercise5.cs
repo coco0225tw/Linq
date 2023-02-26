@@ -2,18 +2,17 @@
 
 void Exercise5(string[] args)
 {
-    Console.Write("Input the string : ");
+    Console.WriteLine("Input the string : ");
     var str = Console.ReadLine();
-    Console.Write("\n");
 
     var ans = from word in str
         group word by word
         into newWord
         select newWord;
-    Console.WriteLine("The frequency of the characters are :\n");
+    Console.WriteLine("The frequency of the characters are :");
     foreach (var result in ans)
     {
-        Console.WriteLine($"Character {result.Key}  : {result.Count()} times \n");
+        Console.WriteLine($"Character {result.Key}  : {result.Count()} times ");
     }
 }
 

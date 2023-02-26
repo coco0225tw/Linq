@@ -3,7 +3,7 @@
 void Exercise3()
 {
     int[] arr = new[] {9, 8, 6, 5 };
-    Console.Write("\nFind the number and its square of an array : \n");
+    Console.WriteLine("Find the number and its square of an array : ");
 
     var sq = from int Number in arr
         let sqNo = Number * Number

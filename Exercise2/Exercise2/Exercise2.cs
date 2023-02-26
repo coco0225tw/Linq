@@ -10,10 +10,10 @@ void Exercise2()
             where t < 12
             where t > 0
             select t;
-        Console.Write("\nThe numbers within the range of 1 to 11 are : \n");			
+        Console.WriteLine("The numbers within the range of 1 to 11 are : ");			
         foreach (var num in numBetween1to11)
         {
-            Console.WriteLine(num + "\n");
+            Console.WriteLine(num);
         }
 }
 Exercise2();
