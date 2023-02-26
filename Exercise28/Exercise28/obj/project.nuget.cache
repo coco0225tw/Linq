@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "NqWh5dSTkbqKTuE+o5mXO0yn9eVKmjWMQ8xixp+8R6EKYDbbPkIqTNoeljloEeLI3RrMz27Pm+u4q9UFtD7Ghw==",
+  "success": true,
+  "projectFilePath": "D:\\mine\\Linq\\Exercise28\\Exercise28\\Exercise28.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\river.kuo18\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\river.kuo18\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\river.kuo18\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\river.kuo18\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.12\\microsoft.netcore.app.host.win-x64.6.0.12.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.coreop.net/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
