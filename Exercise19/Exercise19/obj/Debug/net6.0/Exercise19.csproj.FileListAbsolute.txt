@@ -1,0 +1,15 @@
+D:\mine\Linq\Exercise19\Exercise19\bin\Debug\net6.0\Exercise19.exe
+D:\mine\Linq\Exercise19\Exercise19\bin\Debug\net6.0\Exercise19.deps.json
+D:\mine\Linq\Exercise19\Exercise19\bin\Debug\net6.0\Exercise19.runtimeconfig.json
+D:\mine\Linq\Exercise19\Exercise19\bin\Debug\net6.0\Exercise19.dll
+D:\mine\Linq\Exercise19\Exercise19\bin\Debug\net6.0\Exercise19.pdb
+D:\mine\Linq\Exercise19\Exercise19\obj\Debug\net6.0\Exercise19.csproj.AssemblyReference.cache
+D:\mine\Linq\Exercise19\Exercise19\obj\Debug\net6.0\Exercise19.GeneratedMSBuildEditorConfig.editorconfig
+D:\mine\Linq\Exercise19\Exercise19\obj\Debug\net6.0\Exercise19.AssemblyInfoInputs.cache
+D:\mine\Linq\Exercise19\Exercise19\obj\Debug\net6.0\Exercise19.AssemblyInfo.cs
+D:\mine\Linq\Exercise19\Exercise19\obj\Debug\net6.0\Exercise19.csproj.CoreCompileInputs.cache
+D:\mine\Linq\Exercise19\Exercise19\obj\Debug\net6.0\Exercise19.dll
+D:\mine\Linq\Exercise19\Exercise19\obj\Debug\net6.0\refint\Exercise19.dll
+D:\mine\Linq\Exercise19\Exercise19\obj\Debug\net6.0\Exercise19.pdb
+D:\mine\Linq\Exercise19\Exercise19\obj\Debug\net6.0\Exercise19.genruntimeconfig.cache
+D:\mine\Linq\Exercise19\Exercise19\obj\Debug\net6.0\ref\Exercise19.dll
