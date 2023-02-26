@@ -1,0 +1,15 @@
+D:\mine\Linq\Exercise22\Exercise22\bin\Debug\net6.0\Exercise22.exe
+D:\mine\Linq\Exercise22\Exercise22\bin\Debug\net6.0\Exercise22.deps.json
+D:\mine\Linq\Exercise22\Exercise22\bin\Debug\net6.0\Exercise22.runtimeconfig.json
+D:\mine\Linq\Exercise22\Exercise22\bin\Debug\net6.0\Exercise22.dll
+D:\mine\Linq\Exercise22\Exercise22\bin\Debug\net6.0\Exercise22.pdb
+D:\mine\Linq\Exercise22\Exercise22\obj\Debug\net6.0\Exercise22.csproj.AssemblyReference.cache
+D:\mine\Linq\Exercise22\Exercise22\obj\Debug\net6.0\Exercise22.GeneratedMSBuildEditorConfig.editorconfig
+D:\mine\Linq\Exercise22\Exercise22\obj\Debug\net6.0\Exercise22.AssemblyInfoInputs.cache
+D:\mine\Linq\Exercise22\Exercise22\obj\Debug\net6.0\Exercise22.AssemblyInfo.cs
+D:\mine\Linq\Exercise22\Exercise22\obj\Debug\net6.0\Exercise22.csproj.CoreCompileInputs.cache
+D:\mine\Linq\Exercise22\Exercise22\obj\Debug\net6.0\Exercise22.dll
+D:\mine\Linq\Exercise22\Exercise22\obj\Debug\net6.0\refint\Exercise22.dll
+D:\mine\Linq\Exercise22\Exercise22\obj\Debug\net6.0\Exercise22.pdb
+D:\mine\Linq\Exercise22\Exercise22\obj\Debug\net6.0\Exercise22.genruntimeconfig.cache
+D:\mine\Linq\Exercise22\Exercise22\obj\Debug\net6.0\ref\Exercise22.dll
