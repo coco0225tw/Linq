@@ -19,14 +19,10 @@ void Exercise10()
     Console.WriteLine("Input the value above you want to display the members of the List : ");  
     m = Convert.ToInt32(Console.ReadLine());     
 
-    List<int> FilterList = templist.FindAll(x => x > m ? true : false);  
+    List<int> FilterList = templist.FindAll(x => x > m);  
     Console.WriteLine("The numbers greater than {0} are : ",m);
-    foreach (var num in FilterList)  
-    {  
-        Console.WriteLine(num);  
-    }  
-   
-    Console.ReadLine();  
+    FilterList.ForEach(Console.WriteLine);
+
 }  
 
 

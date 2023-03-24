@@ -6,6 +6,7 @@ void Exercise9()
     var numberGreaterThan80 = numbers.Where(x => x > 80);
 
     Console.WriteLine("The numbers greater than 80 are :");
+    
     foreach (var num in numberGreaterThan80)
     {
         Console.WriteLine(num);

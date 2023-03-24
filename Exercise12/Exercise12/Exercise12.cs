@@ -6,7 +6,7 @@ void Exercise12()
 {
     Console.WriteLine("Input the string");
     var input = Console.ReadLine();
-    string[] parsedInput = input.Split(new char[] { ' ' });
+    var parsedInput = input!.Split(new char[] { ' ' });
     Console.WriteLine("The UPPER CASE words are :");
 
     foreach (string word in parsedInput)

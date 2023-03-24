@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bf9a529-28b6-46f6-b6e6-0e25fa9bf5aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Exercise1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Exercise1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise1/bin/Debug/net6.0/Exercise1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1/bin/Debug/net6.0/Exercise1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise1/bin/Debug/net6.0/Exercise1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1/bin/Debug/net6.0/Exercise1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise1/obj/Debug/net6.0/Exercise1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1/obj/Debug/net6.0/Exercise1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise1/obj/Debug/net6.0/Exercise1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1/obj/Debug/net6.0/Exercise1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise2/Exercise2/Exercise2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2/Exercise2/Exercise2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1/obj/Debug/net6.0/ref/Exercise1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1/obj/Debug/net6.0/ref/Exercise1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1/obj/Debug/net6.0/refint/Exercise1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1/obj/Debug/net6.0/refint/Exercise1.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +79,7 @@
       <workItem from="1677408222951" duration="167000" />
       <workItem from="1677410978165" duration="33000" />
       <workItem from="1677411031505" duration="19000" />
+      <workItem from="1677652486417" duration="135000" />
     </task>
     <servers />
   </component>

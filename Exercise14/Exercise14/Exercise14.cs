@@ -20,14 +20,12 @@ void Exercise14()
 {
     var studentRec = GetData();
     Console.WriteLine("Which maximum grade point(1st, 2nd, 3rd, ...) you want to find  : ");
-    int inputRank = Convert.ToInt32(Console.ReadLine());
-
-    var ans = (from rec in studentRec
-        group rec by rec.GrPoint
-        into grade
-        orderby grade.Key descending
-        select new {record = grade.ToList()}).ToList();
-
+    var inputRank = Convert.ToInt32(Console.ReadLine());
+    var ans =
+        studentRec
+            .GroupBy(rec => rec.GrPoint)
+            .OrderByDescending(grade => grade.Key)
+            .Select(g => new { record = g.ToList() }).ToList();
     ans[inputRank - 1].record.ForEach(i => Console.WriteLine(" Id : {0},  Name : {1},  achieved Grade Point : {2}",i.StuId, i.StuName, i.GrPoint));  
     
 }

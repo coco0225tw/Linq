@@ -5,10 +5,7 @@ void Exercise1()
         int[] arr = new int[5] {0,1,2,3,4};
         
         //Linq
-        var evenNum =
-            from num in arr
-            where num % 2 == 0
-            select num;
+        var evenNum = arr.Where(num => num % 2 == 0).Select(num => num);
         Console.WriteLine("The numbers which produce the remainder 0 after divided by 2 are : ");
         foreach (var num in evenNum)
         {

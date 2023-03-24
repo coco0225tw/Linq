@@ -9,10 +9,10 @@ void Exercise8()
     Console.WriteLine("Input ending character for the string : ");
     var endChar = Console.ReadLine();
 
-    var ans = from city in cities
-        where city.StartsWith(startChar)
-        where city.EndsWith(endChar)
-        select city;
+    var ans =
+        cities
+            .Where(city => endChar != null && startChar != null && city.StartsWith(startChar) && city.EndsWith(endChar))
+            .Select(city => city);
 
     if (ans.Any())
     {
