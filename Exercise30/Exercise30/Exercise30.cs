@@ -2,7 +2,7 @@
 
 void Exercise30()
 {
-    List<string> list = new List<string>()
+    var list = new List<string>()
     {
         "Biscuit",
         "Brade",
@@ -14,9 +14,9 @@ void Exercise30()
         "Honey"
     };
 
-    list = list.Distinct().ToList();
+    list = list.Distinct().ToList(); //choose distinct
 
-    list.Sort();
+    list.Sort(); //sort in ascending a-z
 
     list.ForEach(Console.WriteLine);
 }

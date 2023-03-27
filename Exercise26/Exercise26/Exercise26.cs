@@ -2,16 +2,16 @@
 
 void Exercise26()
 {
-    List<TItem> itemList = new List<TItem>
+    var itemList = new List<TItem>
     {  
-        new TItem { ItemId = 1, ItemDes = "Biscuit  " }, 
+        new TItem { ItemId = 1, ItemDes = "Biscuit" }, 
         new TItem { ItemId = 2, ItemDes = "Chocolate" }, 
-        new TItem { ItemId = 3, ItemDes = "Butter   " },  
-        new TItem { ItemId = 4, ItemDes = "Brade    " },  
-        new TItem { ItemId = 5, ItemDes = "Honey    " }  
+        new TItem { ItemId = 3, ItemDes = "Butter" },  
+        new TItem { ItemId = 4, ItemDes = "Brade" },  
+        new TItem { ItemId = 5, ItemDes = "Honey" }  
     }; 
 		  
-    List<TPurchase> purchaselist = new List<TPurchase>
+    var purchaseList = new List<TPurchase>
     {  
         new TPurchase { No=100, ItemId = 3,  Qty = 800 }, 
         new TPurchase { No=101, ItemId = 2,  Qty = 650 }, 
@@ -29,7 +29,7 @@ void Exercise26()
 
     Console.WriteLine("Here is the Purchase List : ");
 
-    foreach (var item in purchaselist)
+    foreach (var item in purchaseList)
     {
         Console.WriteLine(
             $"Invoice No: {item.No}, Item Id : {item.ItemId},  Quantity : {item.Qty}");
@@ -39,11 +39,10 @@ void Exercise26()
  
     var join = 
         from e in itemList
-        join d in purchaselist 
+        join d in purchaseList 
             on e.ItemId equals d.ItemId into a 
-            from b in a.DefaultIfEmpty(new TPurchase())
-
-            select new  
+            from b in a.DefaultIfEmpty(new TPurchase()) //to item List
+        select new  
             {  
                 itid = e.ItemId,  
                 itdes = e.ItemDes,  

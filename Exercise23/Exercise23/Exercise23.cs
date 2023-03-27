@@ -5,7 +5,7 @@ void Exercise23()
     var chars = new[] { "x", "y", "z" };
     var nums = new[] { 1, 2, 3, 4 };
 
-    var cartesian = 
+    var cartesian =
         (from ch in chars
         from num in nums
         select new

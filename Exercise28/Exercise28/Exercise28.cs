@@ -2,16 +2,16 @@
 
 void Exercise28()
 {
-    string[] cities =  
+    var cities =  new string[]
     {  
         "ROME","LONDON","NAIROBI","CALIFORNIA","ZURICH","NEW DELHI","AMSTERDAM","ABU DHABI", "PARIS"  
     };  
     
     Console.WriteLine("Here is the arranged list :");
-    IEnumerable<string> cityOrder =
+    var cityOrder =
         cities
-            .OrderBy(str => str.Length)
-            .ThenBy(str => str);
+            .OrderBy(str => str.Length) //first length
+            .ThenBy(str => str); //second str
     
     foreach (string city in cityOrder)
         Console.WriteLine(city);

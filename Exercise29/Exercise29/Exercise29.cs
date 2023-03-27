@@ -2,21 +2,20 @@
 
 void Exercise29()
 {
-    string[] cities =  
+    var cities =  new string[]
     {  
         "ROME","LONDON","NAIROBI","CALIFORNIA","ZURICH","NEW DELHI","AMSTERDAM","ABU DHABI", "PARIS"  
     };  
     
-    var cityGroup = from i in Enumerable.Range(0, cities.Length)
-        group cities[i] by i / 3;
-
-    var enumerable = cityGroup as IGrouping<int, string>[] ?? cityGroup.ToArray();
-    foreach (var city in enumerable)
-        if (enumerable != null)
-        {
-            Console.WriteLine(String.Join(";", city));
-            Console.WriteLine("-- here is a group of cities --\n");
-        }
+    var cityGroup = 
+       from i in Enumerable.Range(0, cities.Length)
+       group cities[i] by i / 3;
+    var group = cityGroup.ToArray();
+    foreach (var city in group)
+    {
+        Console.WriteLine(String.Join(";", city));
+        Console.WriteLine("-- here is a group of cities --\n");
+    }
 
     
 }
