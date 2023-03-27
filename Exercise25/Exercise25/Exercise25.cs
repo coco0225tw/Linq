@@ -45,7 +45,8 @@ void Exercise25()
 					 itid = e.ItemId,  
 					 itdes = e.ItemDes,  
 					 prqty = d.Qty  
-				 };  
+				 };
+				
 			 Console.WriteLine("Item ID\t\tItem Name\tPurchase Quantity");
 			 Console.WriteLine("-------------------------------------------------------");
 			 foreach (var data in join)  
