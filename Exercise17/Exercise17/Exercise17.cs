@@ -2,7 +2,7 @@
 
 void Exercise17()
 {
-    List<char> chars = new List<char>()
+    var chars = new List<char>()
     {
         'm',
         'n',

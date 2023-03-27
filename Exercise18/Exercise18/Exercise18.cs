@@ -2,7 +2,7 @@
 
 void Exercise18()
 {
-    List<string> listOfString = new List<string>()
+    var listOfString = new List<string?>()
     {
         "m","n","o","p","q"
     };  
@@ -12,7 +12,7 @@ void Exercise18()
         Console.WriteLine("Char: {0} ", tchar);  
     } 
  
-    listOfString.Remove(listOfString.FirstOrDefault(en => en == "p")); 
+    listOfString.Remove(listOfString.FirstOrDefault(en => en == "p")); //if no corresponded, null (String default value)
            
     
     Console.WriteLine("Here is the list after removing the item 'p' from the list : ");

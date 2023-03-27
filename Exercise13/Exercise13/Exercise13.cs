@@ -3,14 +3,14 @@
 void Exercise13()
 {
     Console.WriteLine("Input number of strings to store in the array :");
-    var arrayLength = Int32.Parse(Console.ReadLine()!);
-    var arr = new string[arrayLength];
+    var arrayLength = int.Parse(Console.ReadLine()!);
+    var arr = new string?[arrayLength];
 
     for (var i = 0; i < arr.Length; i++)
     {
         Console.WriteLine($"Element[{i}]: ");
         var input = Console.ReadLine();
-        arr[i] = input!;
+        arr[i] = input;
     }
 
 

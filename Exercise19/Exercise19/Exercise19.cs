@@ -2,7 +2,7 @@
 
 void Exercise19()
 {
-    List<string> listOfString = new List<string>()
+    var listOfString = new List<string>()
     {
         "m","n","o","p","q"
     };  

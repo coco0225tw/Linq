@@ -2,10 +2,10 @@
 
 void Exercise16()
 {
-    string[] folderFiles = Directory.GetFiles("D:/mine/Linq/Exercise16");
+    var folderFiles = Directory.GetFiles("D:/mine/Linq/Exercise16");
     
 		
-    var size = folderFiles.Select(file =>new FileInfo(file).Length).Average();
+    var size = folderFiles.Select(file =>new FileInfo(file).Length).Average(); //compute average
     size = Math.Round(size / 10, 1);
     Console.WriteLine($"The Average file size is {size} MB");
 }

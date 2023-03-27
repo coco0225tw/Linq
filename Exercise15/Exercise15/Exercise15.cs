@@ -15,7 +15,7 @@ void Exercise15()
     var extensions = files.Select(s =>
         {
             var split = s.Split(new char[] { '.' });
-            return split[split.Length - 1].ToUpper();
+            return split[^1].ToUpper(); //last index
         }
     ).ToList();
 
