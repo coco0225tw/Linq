@@ -2,14 +2,11 @@
  C# Sharp LINQ : Exercises, Practice, Solution
  [Link](https://www.w3resource.com/csharp-exercises/linq/index.php)
 
-check
+convert to lambda expression
 
-//remove item from list
-- [ ] 17
-- [ ] 18
-- [ ] 19
-
-//join-inner right left
+- [ ] 23
+- [ ] 24
 - [ ] 25
 - [ ] 26
 - [ ] 27
+- [ ] 29
