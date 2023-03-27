@@ -1,5 +1,6 @@
 # Linq
  C# Sharp LINQ : Exercises, Practice, Solution
+ [Link](https://www.w3resource.com/csharp-exercises/linq/index.php)
 
 check
 
