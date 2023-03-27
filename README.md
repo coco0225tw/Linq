@@ -3,10 +3,11 @@
  [Link](https://www.w3resource.com/csharp-exercises/linq/index.php)
 
 convert to lambda expression
+- [ ] 23 => join 2 table
+- [ ] 24 => join 3 table
+- [ ] 25 => inner join
 
-- [ ] 23
-- [ ] 24
-- [ ] 25
-- [ ] 26
-- [ ] 27
-- [ ] 29
+convert to lambda expression
+- [ ] 26 => left join
+- [ ] 27 => right join
+- [ ] 29 => divideByThree
