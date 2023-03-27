@@ -2,7 +2,7 @@
 
 void Exercise4()
 {
-    int[] arr = new[] { 5, 5, 5, 4, 6, 7, 9, 9, 5, 4 };
+    var arr = new int[] { 5, 5, 5, 4, 6, 7, 9, 9, 5, 4 };
 
 
     var ans =

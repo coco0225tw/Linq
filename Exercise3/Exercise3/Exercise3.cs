@@ -2,7 +2,7 @@
 
 void Exercise3()
 {
-    int[] arr = new[] {9, 8, 6, 5 };
+    var arr = new int[] {9, 8, 6, 5 };
     Console.WriteLine("Find the number and its square of an array : ");
 
     var sq =

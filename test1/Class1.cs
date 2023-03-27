@@ -1,9 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-//The numbers which produce the remainder 0 after divided by 2 are :0 2 4 6 8
-void Exercise1()
+﻿
+namespace test1;
+
+using System;
+//using System.Linq;
+public class Class1
+{
+    public static void E1()
     {
-        var arr = new int[] {0,1,2,3,4};
-        
+        var arr = new int[5] {0,1,2,3,4};
+    
         //Linq
         var evenNum = arr.Where(num => num % 2 == 0).Select(num => num);
         Console.WriteLine("The numbers which produce the remainder 0 after divided by 2 are : ");
@@ -12,6 +17,8 @@ void Exercise1()
             Console.WriteLine(num);
         }
     }
+}
+
+Class1.E1();
 
 
-Exercise1();

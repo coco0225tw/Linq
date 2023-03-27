@@ -4,7 +4,7 @@ void Exercise10()
 {
     var i=0;
     int n,m;
-    List<int> templist = new List<int>(); 
+    var templist = new List<int>(); 
     
     Console.WriteLine("Input the number of members on the List : ");  
     n= Convert.ToInt32(Console.ReadLine());             
@@ -22,7 +22,6 @@ void Exercise10()
     List<int> FilterList = templist.FindAll(x => x > m);  
     Console.WriteLine("The numbers greater than {0} are : ",m);
     FilterList.ForEach(Console.WriteLine);
-
 }  
 
 

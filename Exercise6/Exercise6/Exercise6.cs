@@ -4,7 +4,7 @@
 void Exercise6()
 {
     
-    string[] dayInWeek = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
+    var dayInWeek = new string[] { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
     foreach (var day in dayInWeek)
     {
         Console.WriteLine(day);

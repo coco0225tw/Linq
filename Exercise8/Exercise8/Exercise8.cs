@@ -2,7 +2,7 @@
 
 void Exercise8()
 {
-    string[] cities =
+    var cities = new string[]
         { "ROME", "LONDON", "NAIROBI", "CALIFORNIA", "ZURICH", "NEW DELHI", "AMSTERDAM", "ABU DHABI", "PARIS"};
     Console.WriteLine("Input starting character for the string : ");
     var startChar = Console.ReadLine();
@@ -21,7 +21,6 @@ void Exercise8()
     else
     {
         Console.WriteLine("No corresponded answer");
-
     }
 }
 Exercise8();

@@ -2,7 +2,7 @@
 
 void Exercise7()
 {
-    int[] arr = new[] { 5, 1, 9, 2, 3, 7, 4, 5, 6, 8, 7, 6, 3, 4, 5, 2 };
+    var arr = new int[] { 5, 1, 9, 2, 3, 7, 4, 5, 6, 8, 7, 6, 3, 4, 5, 2 };
 
     var freq =
         arr
