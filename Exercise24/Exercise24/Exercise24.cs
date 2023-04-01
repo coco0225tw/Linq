@@ -5,16 +5,12 @@ void Exercise24()
     var chars = new[] { "x", "y" };
     var nums = new[] { 1, 2, 3 };
     var colors = new[] { "Green", "Orange"};
-    
-    var cartesian = 
-            (from ch in chars
-            from num in nums
-            from color in colors
-            select new
-            {
-                letterList = ch, numberList = num, colour = color
-            }).ToList();
+
+    var cartesian =
+        chars.SelectMany(ch =>
+            nums.SelectMany(num =>
+                colors.Select(color => new { letterList = ch, numberList = num, colour = color })));
     Console.WriteLine("The cartesian product are :");
-    cartesian.ForEach(Console.WriteLine);
+    cartesian.ToList().ForEach(Console.WriteLine);
 }
 Exercise24();
