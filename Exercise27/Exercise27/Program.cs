@@ -1,9 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 
-
-using System.Diagnostics;
-
-void Exercise26()
+void Exercise27()
 {
     var itemList = new List<TItem>
     {  
@@ -40,29 +37,31 @@ void Exercise26()
 
     Console.WriteLine("Here is the list after joining  : ");
 
-    var join = itemList.GroupJoin(purchaseList,
-        i => i.ItemId,
+    var join = purchaseList.GroupJoin(itemList,
         p => p.ItemId,
-        (i, p) => new
+        i => i.ItemId,
+        (p, i) => new
         {
-            itemId = i.ItemId,
-            itDes = i.ItemDes,
-            p //GroupJoin 不能列舉屬性
-        }).SelectMany(i => i.p.DefaultIfEmpty(new TPurchase()), (i, p) => new
+            p.ItemId,
+            p.Qty,
+            i
+        }).SelectMany(p => p.i.DefaultIfEmpty(new TItem()), (p, i) => new
         {
-        i.itemId,
-        i.itDes,
-        prqty = p.Qty   
-        });
+            p.ItemId,
+            p.Qty,
+            i.ItemDes
+        }
+    );
     Console.WriteLine("Item ID\t\tItem Name\tPurchase Quantity");
     Console.WriteLine("-------------------------------------------------------");
     foreach (var data in join )  
     {  
-        Console.WriteLine(data.itemId + "\t\t" + data.itDes + "\t\t" + data.prqty);  
-    }
+        Console.WriteLine(data.ItemId + "\t\t" + data.ItemDes + "\t\t" + data.Qty);  
+    }   
+    
 }
 
-Exercise26();
+Exercise27();
 public class TItem
 {
     public int ItemId { get; set; }

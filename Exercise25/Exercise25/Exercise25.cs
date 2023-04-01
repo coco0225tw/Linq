@@ -14,7 +14,7 @@ void Exercise25()
     var purchaseList = new List<TPurchase>
 	        {  
            new TPurchase { No=100, ItemId = 3,  Qty = 800 }, 
-           new TPurchase { No=101, ItemId = 2,  Qty = 650 }, 
+           new TPurchase { No=101, ItemId = 5,  Qty = 650 }, 
            new TPurchase { No=102, ItemId = 3,  Qty = 900 },  
            new TPurchase { No=103, ItemId = 4,  Qty = 700 },
 		   new TPurchase { No=104, ItemId = 3,  Qty = 900 },  
@@ -48,14 +48,12 @@ void Exercise25()
 
 				 });
 
-			 Console.WriteLine(
-					 join.Select(s => new
-						 {
-							 ItemId = s.itid,
-							 ItemName = s.itdes,
-							 PurchaseQuantity = s.prqty,
-						 })
-						 .ToMarkdownTable());
+			 Console.WriteLine("Item ID\t\tItem Name\tPurchase Quantity");
+			 Console.WriteLine("-------------------------------------------------------");
+			 foreach (var data in join )  
+			 {  
+				 Console.WriteLine(data.itid + "\t\t" + data.itdes + "\t\t" + data.prqty);  
+			 }  
 
 }
 
