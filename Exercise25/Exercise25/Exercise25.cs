@@ -37,23 +37,26 @@ void Exercise25()
 
 			 Console.WriteLine("Here is the list after joining  : ");
 			 //innerJoin
-			 var join = 
-				 from e in itemList
-				 join d in purchaseList on e.ItemId equals d.ItemId  
-				 select new  
-				 {  
-					 itid = e.ItemId,  
-					 itdes = e.ItemDes,  
-					 prqty = d.Qty  
-				 };
-				
-			 Console.WriteLine("Item ID\t\tItem Name\tPurchase Quantity");
-			 Console.WriteLine("-------------------------------------------------------");
-			 foreach (var data in join)  
-			 {  
-				 Console.WriteLine(data.itid + "\t\t" + data.itdes + "\t\t" + data.prqty);  
-			 }  
-    
+			 var join = itemList.Join(purchaseList,
+				 i => i.ItemId,
+				 p => p.ItemId,
+				 (i, p) => new
+				 {
+					 itid = i.ItemId,
+					 itdes = i.ItemDes,
+					 prqty = p.Qty
+
+				 });
+
+			 Console.WriteLine(
+					 join.Select(s => new
+						 {
+							 ItemId = s.itid,
+							 ItemName = s.itdes,
+							 PurchaseQuantity = s.prqty,
+						 })
+						 .ToMarkdownTable());
+
 }
 
 Exercise25();
