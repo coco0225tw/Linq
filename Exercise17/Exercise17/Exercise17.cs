@@ -15,6 +15,7 @@ void Exercise17()
         Console.WriteLine("Char: {0} ", tchar);  
     } 
     Console.WriteLine("Here is the list after removing the item 'o' from the list : ");
+    //pass the object
     chars.Remove('o');
     foreach(var tchar in chars)  
     {  

@@ -11,10 +11,15 @@ void Exercise18()
     {  
         Console.WriteLine("Char: {0} ", tchar);  
     } 
- 
-    listOfString.Remove(listOfString.FirstOrDefault(en => en == "p")); //if no corresponded, null (String default value)
-           
+    //creating an object internally by filtering
     
+    var item = listOfString.FirstOrDefault(en => en == "p");
+    //if no corresponded(first), null (String default value)
+    //singleordefault => throw exception
+    
+    listOfString.Remove(item); 
+    
+
     Console.WriteLine("Here is the list after removing the item 'p' from the list : ");
     foreach(var rChar in listOfString)  
     {  
