@@ -3,16 +3,16 @@
  [Link](https://www.w3resource.com/csharp-exercises/linq/index.php)
 
 remove
-- [ ] 17
-- [ ] 18
-- [ ] 19
+- [x] 17
+- [x] 18
+- [x] 19
 
 convert to lambda expression
-- [ ] 23 => join 2 table
-- [ ] 24 => join 3 table
-- [ ] 25 => inner join
+- [x] 23 => join 2 table
+- [x] 24 => join 3 table
+- [x] 25 => inner join
 
 convert to lambda expression
-- [ ] 26 => left join
-- [ ] 27 => right join
-- [ ] 29 => divideByThree
+- [x] 26 => left join
+- [x] 27 => right outer join
+- [x] 29 => divideByThree
